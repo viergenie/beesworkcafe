@@ -1,14 +1,20 @@
-
 // Fonts
 @import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
-
 // Variables
 @import "variables";
-
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
-
 .navbar-laravel {
-  background-color: #fff;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
 }
+
+// CSS files
+@import 'public/frontend/css/animate.css';
+@import 'public/frontend/css/bootstrap-datetime.min.css';
+@import 'public/frontend/css/flexslider.css';
+@import 'public/frontend/css/front-awesome.css';
+@import 'public/frontend/css/main.css';
+@import 'public/frontend/css/owl-carousel.css';
+@import 'public/frontend/css/owl-theme.css';
+@import 'public/frontend/css/pricing.css';
